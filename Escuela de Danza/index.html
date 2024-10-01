@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de Danza</title>
-
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/utilities.css">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -19,7 +16,6 @@
 </head>
 
 <body>
-
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -48,8 +44,6 @@
             </div>
         </nav>
     </header>
-
-
     <!-- Banner -->
     <section class="banner">
         <div class="banner-content">
@@ -59,7 +53,6 @@
             <a href="#contacto" class="btn-inscribe">Inscríbete</a>
         </div>
     </section>
-
     <!-- Main -->
     <section class="content text-center">
         <div class="container">
@@ -68,7 +61,6 @@
             <a href="clases.html" class="btn-clases">Oferta de Clases</a>
         </div>
     </section>
-
     <!-- LOS INSTRUCTORES -->
     <section class="content bg-blue text-white">
         <div class="container">
@@ -83,9 +75,76 @@
             <h3 class="text-center mt-4">Nuestros instructores</h3>
         </div>
     </section>
-
-
-
+    <!-- FRASE -->
+    <section class="content bg-gray">
+        <div class="container text-center">
+            <blockquote>
+                "La danza es un poema en el que cada movimiento es una palabra."
+            </blockquote>
+        </div>
+    </section>
+    <!-- UBICACION CON MAPS -->
+    <section class="content bg-blue text-white py-5" id="ubicacion">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Visítanos</h5>
+                    <p>UNSA Ingenierias<br>Av. Independecia S/N <br />Arequipa - Perú</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.3915536610866!2d-71.52914142485695!3d-16.40492868432424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af75b433129%3A0x4cbe9ccdf18cd3fc!2sUNSA%20-%20Campus%20Ingenier%C3%ADas!5e0!3m2!1ses-419!2spe!4v1727644387543!5m2!1ses-419!2spe"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="contact-form">
+                        <h4 class="text-center mb-4">Contáctanos</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Teléfono">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>Selecciona un curso</option>
+                                    <option>Ballet Clasico</option>
+                                    <option>Danza Moderna</option>
+                                    <option>BreakDance</option>
+                                    <option>Baile Arabe</option>
+                                    <option>Ballet Infantil</option>
+                                    <option>Yoga</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" class="form-control" placeholder="Fecha de inicio">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer>
         <p>&copy; Escuela de danza. Todos los derechos reservados.</p>
