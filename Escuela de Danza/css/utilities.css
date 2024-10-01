@@ -1,0 +1,115 @@
+/* Global */
+* {
+    font-family: "Latolight", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Font faces */
+@font-face {
+    font-family: LatoHeavy;
+    src: url(../fonts/LatoHeavy.ttf);
+}
+
+@font-face {
+    font-family: Latolight;
+    src: url(../fonts/Latolight.ttf);
+}
+
+@font-face {
+    font-family: DolceVita;
+    src: url(../fonts/DolceVita.ttf);
+}
+
+@font-face {
+    font-family: Neoteric-Bold;
+    src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+header .navbar-brand {
+    font-family: "LatoHeavy", Arial, sans-serif;
+    font-size: 24px;
+    color: #192951;
+}
+
+header .nav-link {
+    font-family: "Latolight", Arial, sans-serif;
+    color: #192951;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+    color: #4a90e2;
+}
+
+@media (max-width: 991.98px) {
+    header .navbar-nav {
+        margin-top: 15px;
+    }
+
+    header .nav-link {
+        padding: 10px 0;
+    }
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('../img/dance_1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.banner-content {
+    max-width: 21%;
+    /* Ancho*/
+    margin-left: 5%;
+    /* Ajuste desde la izquierda */
+    text-align: left;
+}
+
+.banner h2 {
+    font-family: "DolceVita", Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.banner p {
+    font-size: 16px;
+    /* Slightly reduced from 18px */
+    margin-bottom: 30px;
+    color: white;
+    line-height: 1.5;
+    /* Added for better readability */
+    max-width: 90%;
+    /* Added to make the paragraph even narrower within its container */
+}
+
+.btn-inscribe {
+    background-color: #192951;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    /* Added to ensure proper button sizing */
+}
