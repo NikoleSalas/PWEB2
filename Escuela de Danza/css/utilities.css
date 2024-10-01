@@ -113,3 +113,159 @@ header .nav-link:hover {
     display: inline-block;
     /* Added to ensure proper button sizing */
 }
+
+/* Fondo del "Sobre Nosotros" (reutilizando lógica de Banner) */
+.sobre-nosotros {
+    background-image: url('../img/dance_7.jpg');
+    /* Ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /* Centramos el cuadro horizontalmente */
+    align-items: center;
+    /* Centramos el cuadro verticalmente */
+    height: 500px;
+    /* Ajusta la altura según necesidad */
+    padding: 0 5%;
+}
+
+/* Cuadro con opacidad que contiene el texto */
+.sobre-nosotros-cuadro {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Fondo negro con opacidad del 60% */
+    padding: 20px;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    text-align: center;
+    max-width: 50%;
+    /* Ajusta el ancho del cuadro según necesidad */
+}
+
+/* Estilo del título */
+.sobre-nosotros h2 {
+    font-family: "DolceVita", Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    /* Texto en blanco */
+    margin-bottom: 20px;
+}
+
+/* Estilo del párrafo */
+.sobre-nosotros p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Main Sections */
+.content {
+    padding: 60px 0;
+}
+
+.content h3,
+.content h4,
+.content h5 {
+    font-family: "Neoteric-Bold", Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-clases {
+    background-color: #192951;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bg-blue {
+    background-color: #192951;
+}
+
+/* Mensajito Section */
+blockquote {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* Visítanos Section */
+#ubicacion {
+    background-color: #192951;
+    ;
+}
+
+#ubicacion h5 {
+    font-size: 5em;
+    margin: 5% auto;
+}
+
+#ubicacion p {
+    font-size: 1.8em;
+    margin: 5% auto;
+}
+
+
+/* Contacto Section */
+#contacto {
+    background-image: url('../img/shoes_1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+#contacto .contact-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h4 {
+    font-family: "Neoteric-Bold", Arial, sans-serif;
+    color: #192951;
+    margin-bottom: 25px;
+}
+
+#contacto .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contacto .form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+#contacto .btn-primary {
+    background-color: #192951;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #4a90e2;
+}
+
+@media (max-width: 767.98px) {
+    #contacto {
+        padding: 40px 0;
+    }
+
+    #contacto .contact-form {
+        padding: 20px;
+    }
+}
